@@ -1,0 +1,8 @@
+[X] Dependencies (check package.json to find out the depencies already installed)
+[ ] Create server and connect to database
+[ ] Create routes
+[ ] Create user model and user controller
+[ ] Create hash for passwords (bcrypt)
+[ ] Implement JWT
+[ ] Create middlewares: isAdmin, isAutheticated
+[ ] Create transactions model and transactions controller

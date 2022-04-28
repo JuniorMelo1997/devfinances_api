@@ -1,0 +1,34 @@
+{
+  "name": "devfinances_api",
+  "version": "1.0.0",
+  "description": "API for definances app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuniorMelo1997/definances_api.git"
+  },
+  "keywords": [],
+  "author": "Genival de Melo Junior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuniorMelo1997/definances_api/issues"
+  },
+  "homepage": "https://github.com/JuniorMelo1997/definances_api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.19.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.29",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  }
+}
