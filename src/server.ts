@@ -1,6 +1,10 @@
 import express from "express";
 import { db } from "./database/db";
+import { routes } from "./Routes";
 const app = express();
+
+
+app.use(routes);
 
 app.listen(3000, async ()=>{
     await db.authenticate().then(()=>{
